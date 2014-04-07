@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">edu.kdm.midterm.HeartDiseaseFinder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Experiencing Chest Pain?Check now!</string>
+    <string name="subject">Experiencing Chest Pain?\n\t\t\t Check now!</string>
+    <string name="cp_prompt">Chest Pain</string>
+
+    <string-array name="chest_pain">
+        <item> Chest Pain</item>
+        <item>1: typical angina</item>
+        <item>2: atypical angina</item>
+        <item>3: non-anginal pain</item>
+        <item>4: asymptomatic</item>
+    </string-array>
+
+    <string name="eg_prompt">electrocardiograph</string>
+
+    <string-array name="eg">
+        <item> Electrocardiograph</item>
+        <item>0: normal</item>
+        <item>1: having ST-T wave abnormality (T wave inversions or ST elevation or depression of > 0.05 mV)</item>
+        <item>2: showing probable or definite left ventricular hypertrophy by Estes criteria</item>
+    </string-array>
+
+    <string name="slop_prompt">Slop</string>
+
+    <string-array name="slop">
+        <item>Slop Level</item>
+        <item>1: upsloping</item>
+        <item>2: flat</item>
+        <item>3: downsloping </item>
+    </string-array>
+
+    <string name="thal_prompt">Thalassemia</string>
+
+    <string-array name="thal">
+        <item>Thalassemia</item>
+        <item>3: normal</item>
+        <item>6: fixed defect</item>
+        <item>7: reversable defect </item>
+    </string-array>
+
+    <string name="title_activity_initial">InitialActivity</string>
+    <string name="title_activity_disease_identifier">DiseaseIdentifierActivity</string>
+    <string name="heart_disease">Heart Disease List</string>
+
+    <string-array name="heart_dis">
+        <item> Heart Disease</item>
+        <item>1: Heart Attack</item>
+        <item>2: Heart Failure</item>
+        <item>3: Chest Pain</item>
+        <item>4: Abnormal HeartBeat</item>
+    </string-array>
+
+    <string name="heart_attack">Heart Attack Treatment List</string>
+
+    <string-array name="heart_att">
+        <item> Treatment</item>
+        <item>280 - ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W MCC</item>
+        <item>280 - ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W MCC</item>
+        <item>282 - ACUTE MYOCARDIAL INFARCTION, DISCHARGED ALIVE W/O CC/MCC</item>
+    </string-array>
+
+    <string name="heart_failure">Heart Failure TreatmentList</string>
+
+    <string-array name="heart_fail">
+        <item> Treatment</item>
+        <item>291 - HEART FAILURE and SHOCK W MCC</item>
+        <item>292 - HEART FAILURE and SHOCK W CC</item>
+        <item>293 - HEART FAILURE and SHOCK W/O CC/MCC</item>
+    </string-array>
+
+    <string name="heart_abnormal">Treatment List</string>
+
+    <string-array name="heart_ab">
+        <item> Treatment</item>
+        <item>243 - PERMANENT CARDIAC PACEMAKER IMPLANT W CC</item>
+        <item>244 - PERMANENT CARDIAC PACEMAKER IMPLANT W/O CC/MCC</item>
+        <item>286 - CIRCULATORY DISORDERS EXCEPT AMI, W CARD CATH W MCC</item>
+        <item>287 - CIRCULATORY DISORDERS EXCEPT AMI, W CARD CATH W/O MCC</item>
+        <item>308 - CARDIAC ARRHYTHMIA and CONDUCTION DISORDERS W MCC</item>
+        <item>309 - CARDIAC ARRHYTHMIA and CONDUCTION DISORDERS W CC</item>
+        <item>310 - CARDIAC ARRHYTHMIA and CONDUCTION DISORDERS W/O CC/MCC</item>
+    </string-array>
+
+    <string name="heart_chestp">Chest Pain TReatment List</string>
+
+    <string-array name="heart_chestpains">
+        <item> Treatment</item>
+        <item>313 - CHEST PAIN</item>
+    </string-array>
+
+</resources>
